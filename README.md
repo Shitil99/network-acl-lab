@@ -64,6 +64,7 @@ The lab topology includes:
 access-list 100 deny tcp 192.168.10.0 0.0.0.255 any eq 23
 access-list 100 permit ip any any
 
+```
 
 ### 🔐 Task 3: Allow TFTP and HTTP from 192.168.30.0/24
 ```bash
@@ -71,10 +72,14 @@ access-list 110 permit udp 192.168.30.0 0.0.0.255 host 192.168.20.254 eq 69
 access-list 110 permit tcp 192.168.30.0 0.0.0.255 host 209.165.201.30 eq 80
 access-list 110 deny ip 192.168.30.0 0.0.0.255 any
 
+```
+
 ### 🌐 Task 4: Allow Web Access from Outside Host Only
 ```bash
 access-list 120 permit tcp host 209.165.202.156 host 209.165.201.30 eq 80
 access-list 120 deny ip host 209.165.202.156 any
+
+```
 
 ## 🧪 Tools & Skills Demonstrated
 -Cisco Packet Tracer
