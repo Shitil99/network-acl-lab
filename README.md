@@ -33,7 +33,7 @@ The lab topology includes:
 - 2 servers: Web/TFTP Server and Public Web Server
 - 1 external host (simulated attacker)
 
-![Network ACL Topology](diagrams/acl-topology.png)
+![Network ACL Topology](diagram/acl-topology.png)
 
 ---
 
